@@ -1,2 +1,7 @@
-TWM CMS Bindings
+TWM CMS v3 Bindings
+~~~~~~~~~~~~~~~~~~~
+
+This is the Ruby binding library to communicate with the TWM CMS v3 platform.
+
+It is packaged as a gem
 

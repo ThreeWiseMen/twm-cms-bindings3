@@ -11,7 +11,7 @@ require 'rake/gempackagetask'
 
 spec = Gem::Specification.new do |s|
 	s.platform          = Gem::Platform::RUBY
-        s.name              = "twm-cms-bindings3"
+        s.name              = "twm-cms-bindings"
         s.version           = "3.0.0"
         s.author            = "Three Wise Men"
         s.email             = "info @nospam@ threewisemen.ca"
