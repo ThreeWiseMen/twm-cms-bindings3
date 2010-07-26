@@ -11,14 +11,14 @@ require 'rake/gempackagetask'
 
 spec = Gem::Specification.new do |s|
 	s.platform          = Gem::Platform::RUBY
-        s.name              = "CMSBindings"
-        s.version           = "0.0.1"
+        s.name              = "twm-cms-bindings3"
+        s.version           = "3.0.0"
         s.author            = "Three Wise Men"
         s.email             = "info @nospam@ threewisemen.ca"
-        s.summary           = "Binding library for TWM CMS platform"
+        s.summary           = "Binding library for TWM CMS v3 platform"
         s.files             = FileList[ 'lib/*.rb', 'test/*'].to_a
         s.require_path      = "lib"
-        s.autorequire       = "ruby-memcache"
+        s.autorequire       = "memcache-client"
         s.test_files        = Dir.glob('test/*.rb')
         s.has_rdoc          = true
         s.extra_rdoc_files  = ["README"]

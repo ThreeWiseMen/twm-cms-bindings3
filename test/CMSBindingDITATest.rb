@@ -13,7 +13,7 @@ require 'memcache'
 class TestCMSBindingTest < Test::Unit::TestCase
 
   def setup
-    @source = CMSBinding::CMSSource.new({:site => '11N-0', :server => 'production.threewisemen.ca', :port => '80', :cache_server => '127.0.0.1'})
+    @source = CMSBinding::CMSSource.new({:site => '11N-0'})#, :cache_server => '127.0.0.1'})
   end
 
   def teardown
