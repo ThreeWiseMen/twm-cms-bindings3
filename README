@@ -3,5 +3,13 @@ TWM CMS v3 Bindings
 
 This is the Ruby binding library to communicate with the TWM CMS v3 platform.
 
-It is packaged as a gem
+You can get the current version of this library via rubygems:
+
+http://rubygems.org/gems/twm-cms-bindings
+
+(gem install twm-cms-bindings)
+
+The source code is available on github:
+
+http://github.com/ThreeWiseMen/twm-cms-bindings3
 
